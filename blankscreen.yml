@@ -5,4 +5,4 @@
     - name: Blank screen after 3 Mins
       command: "{{ item }}"
       with_items :
-       - gsettings set org.gnome.desktop.screensaver lock-enabled true
+       - gsettings set org.gnome.desktop.session idle-delay 180
